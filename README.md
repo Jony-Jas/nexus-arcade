@@ -35,3 +35,6 @@ cd nexus-arcade-backend
 
 🎯 Open the App
 visit: http://localhost:3000
+
+![nexus-arcade](https://github.com/user-attachments/assets/879d4d7f-3daf-42bc-9b3e-f418c0396b14)
+
