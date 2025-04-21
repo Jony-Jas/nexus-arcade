@@ -1,0 +1,15 @@
+<header class="nav-header">
+  <div class="nav-divider"></div>
+  <nav class="navigation-menu">
+    @for (item of navigationItems; track item.index) {
+    <a [routerLink]="item.link">
+      <nexus-arcade-round-button
+        [navIcon]="item.icon"
+        [active]="activeButtonIndex() === item.index"
+        (click)="setActiveButton(item.index)"
+        [navTooltip]="item.tooltip"
+      ></nexus-arcade-round-button>
+    </a>
+    }
+  </nav>
+</header>

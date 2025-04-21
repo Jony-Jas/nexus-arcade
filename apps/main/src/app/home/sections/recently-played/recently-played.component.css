@@ -1,0 +1,35 @@
+.section-title {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 174, 255, 0.5);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.horizontal-scrollable {
+  overflow-x: auto;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 174, 255, 0.5) rgba(26, 26, 46, 0.3);
+}
+
+.horizontal-scrollable::-webkit-scrollbar {
+  height: 8px;
+}
+
+.horizontal-scrollable::-webkit-scrollbar-track {
+  background: rgba(26, 26, 46, 0.3);
+  border-radius: 4px;
+}
+
+.horizontal-scrollable::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #0061ff, #60efff);
+  border-radius: 4px;
+}
+
+.horizontal-scrollable::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #0052d6, #54d6e6);
+}

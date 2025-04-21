@@ -1,0 +1,6 @@
+{
+    "/assets/sample-game": {
+        "target": "http://localhost:4201",
+        "secure": false
+    }
+}

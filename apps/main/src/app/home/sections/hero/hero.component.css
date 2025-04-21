@@ -1,0 +1,49 @@
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.gradient-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0) 40%,
+    rgba(26, 26, 46, 0.7) 75%,
+    rgba(26, 26, 46, 1) 100%
+  );
+  pointer-events: none;
+  box-shadow: 0 0 20px rgba(0, 174, 255, 0.2);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carousel-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+:host ::ng-deep .p-carousel {
+  width: 100%;
+}
+
+:host ::ng-deep .p-carousel-indicators {
+  bottom: 3rem;
+}
+
+:host ::ng-deep .p-carousel-indicator button {
+  background: rgba(0, 174, 255, 0.5);
+  width: 10px;
+  height: 10px;
+}
+
+:host ::ng-deep .p-carousel-indicator.p-highlight button {
+  background: linear-gradient(90deg, #0061ff, #60efff);
+}

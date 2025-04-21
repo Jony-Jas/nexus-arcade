@@ -1,0 +1,13 @@
+<div
+  class="round-button-container"
+  [ngClass]="{ 'active-state': active(), 'inactive-state': !active() }"
+  [pTooltip]="this.navTooltip()"
+  tooltipPosition="right"
+>
+  <button
+    class="round-button"
+    [ngClass]="{ 'button-active': active(), 'button-inactive': !active() }"
+  >
+    <img [src]="this.navIcon()" alt="Game Icon" class="button-icon" />
+  </button>
+</div>

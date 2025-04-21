@@ -1,0 +1,21 @@
+.section-title {
+  margin: 2vw 0 0.5rem 0;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 174, 255, 0.5);
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+}
+
+.marketplace-container {
+  padding: 1rem;
+  background-color: rgba(48, 48, 80, 0.3);
+  border-radius: 10px;
+  margin: 0 1rem;
+  border-bottom: 1px solid rgba(0, 174, 255, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #9ba4b4;
+}

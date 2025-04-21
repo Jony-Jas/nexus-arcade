@@ -1,0 +1,16 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styles */
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  background: linear-gradient(to top, #373541 0%, #45434d 32%, #595860 93%);
+  overflow: auto;
+}

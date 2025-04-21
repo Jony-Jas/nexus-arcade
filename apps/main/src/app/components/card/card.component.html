@@ -1,0 +1,52 @@
+<div
+  [style]="{
+    width: '220px',
+    'border-radius': '15px',
+    overflow: 'hidden',
+    'text-align': 'center',
+    'box-shadow': 'rgb(0 0 0 / 46%) -5px 9px 8px 0px',
+    'background-color': '#2a2a40',
+    color: '#fff'
+  }"
+>
+  <img
+    [alt]="name"
+    [style]="{
+      width: '100%',
+      display: 'block',
+      height: 'auto',
+      'border-bottom': '2px solid rgba(0, 174, 255, 0.5)'
+    }"
+    [src]="image"
+  />
+  <div [style]="{ padding: '0.5rem', position: 'relative' }">
+    <p
+      [style]="{
+        margin: '0',
+        display: 'inline-block',
+        marginRight: '0.5rem',
+        'font-size': '1rem',
+        'font-weight': 'bold'
+      }"
+    >
+      {{ name }}
+    </p>
+    <p
+      [style]="{
+        margin: '0',
+        fontWeight: 'bold',
+        color: 'white',
+        'font-size': '1.2rem',
+        'background-color': 'rgb(58 58 90 / 50%)',
+        padding: '0.3rem 0.5rem',
+        'border-radius': '5px',
+        display: 'inline-block',
+        position: 'absolute',
+        top: '-44px',
+        right: '2px'
+      }"
+    >
+      {{ price | currency }}
+    </p>
+  </div>
+</div>

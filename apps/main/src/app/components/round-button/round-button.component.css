@@ -1,0 +1,58 @@
+.active-state,
+.inactive-state {
+  transition: all 0.3s ease-in-out;
+}
+
+.button-active,
+.button-inactive {
+  transition: all 0.3s ease-in-out;
+}
+
+.round-button-container {
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #797a83 0%, #4e4753 58%);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.46) -5px 9px 8px 0px;
+  transition: all 0.3s ease-in-out;
+}
+
+.active-state {
+  width: 80px;
+  height: 80px;
+}
+
+.inactive-state {
+  width: 60px;
+  height: 60px;
+}
+
+.round-button {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-active {
+  background: linear-gradient(
+    to bottom,
+    #373737 43%,
+    #404040 68%,
+    #4d4d4d 100%
+  );
+}
+
+.button-inactive {
+  background: none;
+}
+
+.button-icon {
+  width: 40px;
+  height: 40px;
+}

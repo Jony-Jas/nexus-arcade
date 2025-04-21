@@ -1,0 +1,18 @@
+.section-title {
+  margin: 2vw 0 0.5rem 0;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 174, 255, 0.5);
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-left: 1rem;
+}
+
+.games-container {
+  padding: 1rem;
+}
+
+.games-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

@@ -1,0 +1,18 @@
+<div class="hero-container">
+  <div class="gradient-overlay"></div>
+  <p-carousel
+    [value]="heroImages"
+    [numVisible]="1"
+    [numScroll]="1"
+    [circular]="true"
+    [autoplayInterval]="5000"
+    showNavigators="false"
+    showIndicators="false"
+  >
+    <ng-template pTemplate="item" let-image>
+      <div class="carousel-item">
+        <img [src]="image.src" [alt]="image.alt" class="hero-image" />
+      </div>
+    </ng-template>
+  </p-carousel>
+</div>

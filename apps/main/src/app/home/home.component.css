@@ -1,0 +1,32 @@
+.home-container {
+  margin: 0 auto;
+  position: relative;
+  background: linear-gradient(to bottom, #1a1a2e, #16213e);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.nav-wrapper {
+  position: absolute;
+  z-index: 2;
+}
+
+.content-wrapper {
+  background-color: rgba(26, 26, 46, 0.8);
+}
+
+.sections-container {
+  margin-left: 10rem;
+  margin-top: -8rem;
+  position: relative;
+  z-index: 1;
+  padding: 0 2rem 2rem;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 174, 255, 0.5);
+}

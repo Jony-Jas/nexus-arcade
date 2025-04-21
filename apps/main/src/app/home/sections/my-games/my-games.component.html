@@ -1,0 +1,18 @@
+<!-- eslint-disable @angular-eslint/template/click-events-have-key-events -->
+<!-- eslint-disable @angular-eslint/template/interactive-supports-focus -->
+<h1 class="section-title">My Games</h1>
+<div class="games-container">
+  <div class="games-grid">
+    @for (game of games; track game.id) {
+    <a (click)="this.trackGameClick(game)">
+      <nexus-arcade-card
+        [id]="game.id"
+        [name]="game.name"
+        [image]="game.image"
+        [price]="game.price"
+      >
+      </nexus-arcade-card>
+    </a>
+    }
+  </div>
+</div>
